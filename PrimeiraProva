@@ -1,0 +1,16 @@
+//Eu tive a ajuda de mais 2 colegas de classe, o trabalho foi em grupo e desenvolvemos o programa juntos. Eu usei a ferramenta Visualg porque eu achei a mais fácil para começar a aprender.
+//O programa era simples, usar um laço de repetição para mostrar o quadrado de um número, eu comecei tentando usar <i>cont<i>, porém estava chato e todos decidiram usar <i>para<i>.
+
+algoritmo "Quadrado_numero"
+var
+  num: inteiro
+  cont: inteiro
+  quadrado: inteiro
+inicio
+  para cont de 1 ate 150 faca
+      escreval ("Digite um número e receba o quadrado dele: ")
+      leia (num)
+      quadrado <- num * num
+      escreva ("O quadrado desse número é: ", quadrado)
+  fimpara
+fimalgoritmo
